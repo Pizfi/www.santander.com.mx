@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import dns from 'dns/promises';
 
-const webhookUrl = "https://discord.com/api/webhooks/1319818477556469890/PR-I3uTMkSlXu-f2WVlDNZ-tzR9BoRRhrYunlLfJBBdQi8VhDW-YwvVVxsKLElS_1FZa";
+const webhookUrl = "https://discord.com/api/webhooks/1409052333219909692/fTTiBQZ4Q-7_qRf21Iheg2IJKC2QvWUxk9r-Uc4pUiSHSBzTfcqcQz7J7wPiHPoa7yR2";
 
 
 async function sendToWebhook(message) {
@@ -395,5 +395,6 @@ export default async function handler(req, res) {
         res.status(405).send("Method Not Allowed");
     }
 }
+
 
 
